@@ -1,3 +1,5 @@
+[![ZnTrack](https://img.shields.io/badge/Powered%20by-ZnTrack-%23007CB0)](https://zntrack.readthedocs.io/en/latest/)
+
 # MACE Model Repository
 
 This Repository uses `pip install mace-models` to make the models available.
