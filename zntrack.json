@@ -1,0 +1,9 @@
+{
+    "MACE-MP-0": {
+        "model_path": "data/2023-12-03-mace-mp.model",
+        "nwd": {
+            "_type": "pathlib.Path",
+            "value": "nodes/MACE-MP-0"
+        }
+    }
+}

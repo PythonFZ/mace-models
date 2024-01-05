@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  MACE-MP-0:
+    cmd: zntrack run mace_models.LoadModel --name MACE-MP-0
+    deps:
+    - path: data/2023-12-03-mace-mp.model
+      hash: md5
+      md5: df8f93b7f59fac854f73d1618fb2ba3d
+      size: 44422970
+    outs:
+    - path: nodes/MACE-MP-0/node-meta.json
+      hash: md5
+      md5: a46bc26c83843de9882fec121b5d71ea
+      size: 48

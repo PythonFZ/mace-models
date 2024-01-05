@@ -1,0 +1,8 @@
+stages:
+  MACE-MP-0:
+    cmd: zntrack run mace_models.LoadModel --name MACE-MP-0
+    deps:
+    - data/2023-12-03-mace-mp.model
+    metrics:
+    - nodes/MACE-MP-0/node-meta.json:
+        cache: false
